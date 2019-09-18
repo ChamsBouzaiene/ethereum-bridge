@@ -1,0 +1,9 @@
+module.exports = {
+  infura_API_KEY:
+    "https://ropsten.infura.io/v3/e77f3d8396ef4a88b27f94a799724a80",
+  PRIVATE_KEY: Buffer.from(
+    "76D698E7C70B10809777594D913D683EE527AB69A68BBA3F2C9C5B80D99D5B71",
+    "hex"
+  ),
+  PUBLIC_KEY: "0x99A32EaEDdCEfFD946e5329965AB271b69245807"
+};

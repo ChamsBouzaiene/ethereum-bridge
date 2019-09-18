@@ -13,6 +13,12 @@ module.exports = {
       network_id: 5777,
       gas: 6000000,
       host: "127.0.0.1"
+    },
+    ropsten: {
+      port: 8545,
+      network_id: 5777,
+      gas: 6000000,
+      host: "127.0.0.1"
     }
   }
 };

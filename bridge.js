@@ -5,6 +5,13 @@ const PrivateQueue = require("./PrivateQueue");
 const { abi } = PrivateQueue;
 const address = PrivateQueue.networks["5777"].address;
 
+//Get Public Smart Contract Data
+const PublicQueue = require("./PublicQueue");
+const pubAbi = PublicQueue.abi;
+const addressPub = PublicQueue.networks["3"].address;
+
+console.log(pubAbi, addressPub);
+
 // Instanciate Web3
 let web3 = new Web3(
   new Web3.providers.WebsocketProvider("ws://127.0.0.1:8545")
