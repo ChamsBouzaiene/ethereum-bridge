@@ -1,3 +1,7 @@
+#### Ethereum Bridge 
+![alt text](https://raw.githubusercontent.com/alchemist107/ethereum-bridge/master/Blockchain%20Bridge.png)
+
+
 ## Description
 
 This tool enables any non-public blockchain instance to interact with the Public Blockchain
