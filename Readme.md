@@ -30,23 +30,4 @@ cd ethereum-bridge
 npm install
 ```
 
-### How to use
 
-You have 2 options:
-
-- [active mode](#active-mode)
-- [broadcast mode](#broadcast-mode)
-
-After you have correctly deployed the smart contracts
-
-#### Broadcast Server
-
-Express Server that Brodcast on Port 8008
-
-#### Add a custom address or smart contract
-
-**Note:** The address chosen will be used to deploy all the Oraclize contracts, **make sure to not deploy contracts that use Oraclize on the same address.**
-
-### How to update the bridge
-
-If a new version is detected you can run `npm run update` to automatically donwload and install the latest version from github.
